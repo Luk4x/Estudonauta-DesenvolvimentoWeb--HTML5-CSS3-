@@ -5,33 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon-luk4x.ico" type="image/x-icon">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('exemplo')</code> é escrito em javascript.</p>
-    <pre>
-        <code>
-num = int(input('Digite um número: '))
-if num % 2 == 0:
-    print(f'{num} é par')
-else:
-    print(f'{num} é ímpar')
-        </code>
-    </pre>
-    <h2>Citação simples</h2>
-    <p>Como diria Nietzsche: <q>There are no beautiful surfaces without a terrible depth.</q></p>
-    <h2>Citação completa</h2>
-    <p>Segundo Jose Vieira, no seu livro A Nova Consciência & A Grande Rebelião:</p>
-    <blockquote cite="https://sebocultural.com.br/produto/a-nova-consciencia-a-grande-rebeliao/">
-        Acredito que nós sejamos o universo em uma forma única, individual, de vida orgânica e material;
-        Acredito que a totalidade de sua estrutura física seja constituída de energia nos seus mais diversos estágios;
-        Acredito que essa energia seja a verdadeira unidade do sistema da vida.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou estudando HTML e CSS.</bdo></p> <!-- ...? -->
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="0">
+        <li>I</li>
+        <li>II</li>
+        <li>III</li>
+        <li>IV</li>
+    </ol>
+    <ol type="a">
+        <li>0</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <ol type="I" reversed>
+        <li>a
+        <li>b
+        <li>c
+        <li>d
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul>
+        <li>III</li>
+        <li>um</li>
+        <li>0</li>
+        <li>b</li>
+    </ul>
+    <ul type="square">
+        <li>abc</li>
+        <li>I II III</li>
+        <li>012</li>
+    </ul>
+    <h2>Linguagens que:</h2>
+    <ol>
+        <li>Estou aprendendo/aperfeiçoando</li>
+        <ol type="i">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ol>
+        <li>Quero aprender/aprofundar</li>
+        <ol type="i">
+            <li>Python</li>
+            <li>C#</li>
+            <li>PHP</li>
+        </ol>
+    </ol>
+    <h2>Alguns dos <abbr title="Minha opinião">Melhores</abbr> animes que lembro de:</h2>
+    <ol>
+        <li>Romance</li>
+        <ul>
+            <li><strong>Yagate kimi ni naru</strong></li>
+            <ul>
+                <li>anime+mangá</li>
+            </ul>
+            <li>Ijiranaide, Nagatoro-san</li>
+            <li>Yesterday wo utatte</li>
+        </ul>
+        <li>Mistério</li>
+        <ul>
+            <li><strong>Subete ga f ni naru</strong></li>
+            <li>Serial Experiments Lain</li>
+            <li>Gosick</li>
+        </ul>
+    </ol>
+    <h2>Listas de Definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização utilizada para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação utilizada para a criação da interatividade de um site.</dd>
+    </dl>
 </body>
 </html>
