@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-luk4x.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com os principais tipos de mídias em HTML5</h1>
+    <h2>Imagem dinâmica</h2>
+    <p>Use diferentes resoluções para visualizar o efeito das seguintes imagens:</p>
+    <picture>
+        <source media="(min-width: 1640px)" srcset="images/pexels-jakub-novacek-1600.jpg" type="image/jpg">
+        <source media="(min-width: 940px)" srcset="images/pexels-jakub-novacek-900.jpg" type="image/jpg">
+        <img src="images/pexels-jakub-novacek-350.jpg" alt="free wallpaper">
+    </picture>
+    <hr>
+    <picture>
+        <source media="(max-width: 740px)" srcset="images/small-img.png" type="image/png">
+        <source media="(max-width: 1040px)" srcset="images/medium-img.png" type="image/png">
+        <img src="images/large-img.png" alt="flexible image">
+    </picture>
+    <h2>Áudio</h2>
+    <p>Reproduzindo áudios em HTML5.</p>
+    <h3>Kurt - Cheel</h3>
+    <audio preload="metadata" controls>
+        <source src="audios/kurt-cheel.mp3" type="audio/mpeg">
+        <p>Seu navegador não foi capaz de carregar o formato de áudio necessário. Para baixa-lo, clique <a href="audios/kurt-cheel.mp3" download="Kurt - Cheel.mp3" type="audio/mpeg">aqui</a>.</p>
+    </audio>
+    <h3>Violet Vape - Cheel</h3>
+    <audio preload="metadata" controls>
+        <source src="audios/violet-vape-cheel.mp3" type="audio/mpeg">
+        <p>Seu navegador não foi capaz de carregar o formato de áudio necessário. Para baixa-lo, clique <a href="audios/violet-vape-cheel.mp3" download="Violet Vape - Cheel.mp3" type="audio/mpeg">aqui</a>.</p>
+    </audio>
+    <h2>Vídeo</h2>
+    <p>Reproduzindo e transcodificando vídeos.</p>
+</body>
+</html>
