@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Trabalhando com os principais tipos de mídias em HTML5</h1>
-    <h2>Imagem dinâmica</h2>
+    <h2>Imagens dinâmicas</h2>
     <p>Use diferentes resoluções para visualizar o efeito das seguintes imagens:</p>
     <picture>
         <source media="(min-width: 1640px)" srcset="images/pexels-jakub-novacek-1600.jpg" type="image/jpg">
@@ -22,7 +22,7 @@
         <source media="(max-width: 1040px)" srcset="images/medium-img.png" type="image/png">
         <img src="images/large-img.png" alt="flexible image">
     </picture>
-    <h2>Áudio</h2>
+    <h2>Áudios</h2>
     <p>Reproduzindo áudios em HTML5.</p>
     <h3>Kurt - Cheel</h3>
     <audio preload="metadata" controls>
@@ -36,25 +36,27 @@
         <source src="audios/violet-vape-cheel.mp3" type="audio/mpeg">
         <p>Seu navegador não foi capaz de carregar o formato de áudio necessário. Para baixa-lo, clique <a href="audios/violet-vape-cheel.mp3" download="Violet Vape - Cheel.mp3" type="audio/mpeg">AQUI</a>.</p>
     </audio>
-    <h2>Vídeo</h2>
-    <p>Reproduzindo e transcodificando vídeos. (animation videos by <a href="https://www.pexels.com/@tunnel-motions-1398086">@tunnel-motions</a>)</p>
-    <h3>Localmente</h3>
+    <h2>Vídeos</h2>
+    <p>Reproduzindo e transcodificando vídeos. (animation videos 1,2,3 from <a href="https://www.pexels.com/@tunnel-motions-1398086" target="_blank" rel="external">@tunnel-motions</a>)</p>
+    <h3>Hospedagem local</h3>
     <h4>Animation video 1</h4>
     <video preload="metadata" width="500" height="300" controls poster="images/Animation1-poster.png">
-        <source src="videos/animation1-720.m4v" type="video/m4v">
+        <source src="videos/animation1-720.m4v" type="video/mp4">
         <source src="videos/animation1-720.webm" type="video/webm">
         <p>Seu navegador não foi capaz de carregar o formato de vídeo necessário. Para baixar o formato original, clique <a href="videos/animation1-full.mp4" download="Animation1.mp4" type="video/mp4">AQUI</a>.</p>
     </video>
     <h4>Animation video 2</h4>
     <video preload="metadata" width="500" height="300" controls>
-        <source src="videos/animation2-720.m4v" type="video/m4v">
+        <source src="videos/animation2-720.m4v" type="video/mp4">
         <source src="videos/animation2-full.mp4" type="video/mp4">
         <source src="videos/animation2-720.webm" type="video/webm">
         <p>Seu navegador não foi capaz de carregar o formato de vídeo necessário. Para baixar o formato original, clique <a href="videos/animation2-full.mp4" download="Animation2.mp4" type="video/mp4">AQUI</a>.</p>
     </video>
-    <h3>Externamente</h3>
+    <h3>Hospedagem externa</h3>
     <h4>Animation video 3</h4>
-    
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/q0usmEv22Io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h4>Animation video 4</h4>
+    <p>Animation video from <a href="https://vimeo.com/wabbla?embedded=true&source=owner_name&owner=9887149" target="_blank" rel="external">Alvise Zennaro</a>.</p>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&title=0&portrait=0" width="500" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
 </body>
 </html>
