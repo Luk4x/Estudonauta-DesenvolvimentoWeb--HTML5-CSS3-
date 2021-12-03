@@ -1,0 +1,19 @@
+body {
+    background-color: slateblue;
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: rgb(37, 50, 172);
+}
+
+p {
+    color: darkgray;
+    text-align: justify;
+}
