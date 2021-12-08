@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon-luk4x.ico" type="image/x-icon">
+    <title>Fontes Externas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*
+            Tipos de formatos:
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat
+            - svg
+        */
+
+        @font-face {
+            font-family: 'Typewriter-Black';
+            src: url('typewriter-font/JMH\ Typewriter-Black.otf') format('opentype'), url('typewriter-font/JMH\ Typewriter-Black.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Typewriter-Thin';
+            src: url('typewriter-font/JMH\ Typewriter-Thin.otf') format('opentype'), url('typewriter-font/JMH\ Typewriter-Thin.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Typewriter-Thin', monospace;
+        }
+
+        h1, h2 {
+            font-family: 'Typewriter-Black', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes Externas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam qui voluptatum illum doloribus dolorem quaerat, nostrum, possimus eligendi quod odit, suscipit impedit quibusdam ut sit provident sunt inventore quam molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate cumque, a itaque cum soluta sunt eum perspiciatis. Placeat maxime soluta corrupti saepe, temporibus explicabo adipisci ullam sint rerum! Repudiandae, dolores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus cum ipsa dolor eius, iste culpa, commodi minima non sequi amet voluptatem? Commodi iste consectetur amet nobis necessitatibus provident ab ea.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor odio omnis modi hic in dicta corrupti quisquam blanditiis, tempore qui perferendis soluta corporis sapiente dolorum nobis ipsa vero quibusdam.</p>
+    <h2 style="text-align: right;">
+        <a href="font2.html" rel="next">
+            Ex18.1 &rarrb;
+        </a>
+    </h2>
+    <h2>
+        <a href="index.html" rel="prev">
+            &larrb; Voltar
+        </a>
+    </h2>
+</body>
+</html>
