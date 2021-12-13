@@ -1,0 +1,18 @@
+body {
+    background-image: radial-gradient(circle, gray, darkgray);
+    font: 1.2em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #313B72;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #7083f1;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #262A10;
+}
