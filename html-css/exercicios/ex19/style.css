@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle, gray, darkgray);
+    background-image: radial-gradient(gray, darkgray);
     font: 1.2em Arial, Helvetica, sans-serif;
 }
 
@@ -9,10 +9,31 @@ h1 {
 
 h1#principal {
     text-align: center;
-    background-color: #7083f1;
+    background-color: #5963ee;
     border-radius: 5px;
 }
 
 h2 {
     color: #262A10;
+}
+
+.basico {
+    text-decoration: overline;
+}
+
+.intermediario {
+    text-decoration: overline line-through;
+}
+
+.avancado {
+    text-decoration: overline line-through underline;
+}
+
+.importante {
+    background-color: rgba(100, 143, 237, 0.5);
+    border-radius: 4px;
+}
+
+.texto {
+    text-align: justify;
 }
