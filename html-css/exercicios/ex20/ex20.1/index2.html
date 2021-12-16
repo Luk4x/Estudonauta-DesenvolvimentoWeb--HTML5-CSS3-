@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../favicon-luk4x.ico" type="image/x-icon">
+    <title>Pseudo-Classes e Pseudo-Elements</title>
+    <style>
+        body {
+            font: 1.2em Arial, sans-serif;
+            background-image: linear-gradient(to right, rgb(119, 119, 253), rgb(80, 80, 172));
+        }
+
+        .externo {
+            color: rgb(0, 119, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .externo:visited {
+            color: green;
+        }
+
+        .externo:hover {
+            text-decoration: underline;
+        }
+
+        .externo:active {
+            color: black;
+        }
+
+        .externo::after {
+            content: ' [link]';
+            font-weight: lighter;
+            color: darkgray;
+        }
+
+        .importante::before {
+            content: '-> ';
+            color: darkred;
+        }
+
+        .importante {
+            background-color: rgb(209, 96, 96);
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Classes e Pseudo-Elements</h1>
+    <ul>
+        <li><a href="https://github.com/luk4x" target="_blank" rel="external" class="importante externo">Repositório do Github</a></li>
+        <li><a href="https://www.estudonauta.com/blog/aluno/lucas-maciel-francisco/" target="_blank" rel="external" class="externo">Página no Estudonauta</a></li>
+    </ul>
+    <p>
+        <a href="../index.html" rel="prev">
+            &larrb; Voltar
+        </a>
+    </p>
+</body>
+</html>
