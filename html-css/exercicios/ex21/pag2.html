@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon-luk4x.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgb(201, 200, 200), rgb(163, 162, 162));
+            background-attachment: fixed;
+            font: 1.2em Arial, sans-serif;
+            text-align: justify;
+        }
+
+        header {
+            background-color: rgba(240, 255, 255, 0.6);
+            text-align: center;
+            width: 800px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        nav {
+            padding: 5px;
+            background-color: rgba(255, 248, 220, 0.5);
+            width: 200px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            background-color: rgba(220, 20, 60, 0.5);
+            border-radius: 5px;
+        }
+
+        main {
+            background-color: rgba(125, 167, 167, 0.6);
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            margin-top: 25px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        h2, h3 {
+            text-decoration: underline;
+            background-color: rgba(210, 105, 30, 0.5);
+            text-align: center;
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+        }
+
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            text-decoration: none;
+        }
+
+        section > article {
+            font-style: italic;
+            text-align: center;
+        }
+
+        img {
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+
+        aside > p {
+            display: inline;
+            background-color: rgba(95, 158, 160, 0.5);
+        }
+
+        footer {
+            font: bold 0.7em serif;
+            padding: 20px;
+            text-indent: 1em;
+        }
+
+        footer > p {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Protótipo de Site Semântico</h1>
+        <nav>
+            <a href="index.html">Página 1</a>
+            <a href="#">link2</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Notícias</h2>
+        <section id="noticia1">
+            <h3>Notícia 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maxime libero similique laudantium obcaecati quisquam, facere inventore totam facilis dignissimos repellendus at, molestias corrupti fugit molestiae nesciunt vitae dicta id? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab possimus culpa tempora quisquam, perspiciatis quod distinctio expedita! Nostrum omnis ea quae ab harum veniam sapiente facere temporibus ipsum odio!</p>
+            <article>
+                <picture>
+                    <source media="(min-width: 980px)" srcset="images/text1-940.jpg" type="image/jpg">
+                    <source media="(min-width: 680px)" srcset="images/text1-640.jpg" type="image/jpg">
+                    <img src="images/text1-400.jpg" alt="flexible image with text">
+                </picture>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet laudantium explicabo voluptate non hic, assumenda odio? Nisi necessitatibus beatae quia dolorem, nemo ipsam ut? Magnam provident corrupti ab natus.</p>
+            </article>
+        </section>
+        <section id="noticia2">
+            <h3>Notícia 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate modi molestias quisquam numquam rerum sed cum quas. Quos, delectus excepturi quasi dolorem numquam hic ipsum? Illo hic sequi quas enim.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius possimus officiis vero repellat architecto quasi iure laborum, veritatis obcaecati sint laboriosam excepturi labore fugit ipsam qui libero? Ipsum, repudiandae nesciunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, perspiciatis, sit vero, incidunt consectetur cum consequatur excepturi minima maxime voluptatem molestiae? Vero sed ducimus et consectetur repellat delectus. Molestiae, quia.</p>
+            <aside>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, dignissimos facilis. Consequuntur officia architecto eaque, iusto quas autem magni, quos dolor porro quia officiis totam nulla ea, consectetur labore aspernatur.</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque tenetur aliquam dolor iure ipsa, possimus facilis laudantium modi voluptatem illum consequuntur nulla aut nisi, enim nostrum cumque repudiandae veniam.</p>
+    </footer>
+</body>
+</html>
