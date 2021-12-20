@@ -29,7 +29,7 @@ body {
 header {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
     color: white;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     font-family: var(--fbebas);
@@ -39,23 +39,25 @@ header {
 
 header > p {
     text-align: center;
+    font-size: 1.2em;
 }
 
-nav {
+header nav {
     text-align: left;
     padding: 3px;
 }
 
-nav > a {
+header nav > a {
     color: var(--cor1);
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
+    transition-duration: .4s;
 }
 
-nav > a:hover {
+header nav > a:hover {
     color: var(--cor6);
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     border-radius: 5px;
     padding: 5px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -68,46 +70,94 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: auto;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.4);
     border-radius: 0px 0px 10px 10px;
 }
 
+main h1, h2 {
+    font-family: var(--fidroid);
+}
+
 main h1 {
-    font: 1.7em var(--fidroid);
+    font-size: 1.8em;
     color: var(--cor6);
     margin: 10px
 }
 
 main h2 {
-    font: 1.4em var(--fidroid);
-    background-image: linear-gradient(to right, var(--cor2), var(--cor0));
+    font-size: 1.4em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
     color: var(--cor5);
     padding-left: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
+    margin-left: 10px;
 }
 
-p {
+main p {
     padding: 10px;
     text-align: justify;
+    text-indent: 1em;
+    line-height: 1.5em;
 }
 
-strong {
+main strong {
     color: var(--cor6);
 }
 
-aside {
+main .externo {
+    background-color: var(--cor3);
+    padding-left: 5px;
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+main .externo::after {
+    content: ' 📎';
+}
+
+main .externo:hover {
+    color: var(--cor5);
+    text-decoration: underline;
+}
+
+main aside {
     text-align: center;
     margin: 10px;
 }
 
-.w100 {
+main .w100 {
     width: 100%;
+}
+
+main .imgblock {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+main iframe {
+    min-height: 200px;
+    max-height: 420px;
+}
+
+main #video {
+    margin: 0px;
+    background-color: var(--cor6);
+    padding: 20px;
+}
+
+main #extra {
+    background-color: var(--cor2);
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
     background-color: var(--cor6);
     color: white;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 footer a {
@@ -119,33 +169,4 @@ footer > p {
     margin: 0px;
     padding: 2px;
     text-align: center;
-}
-
-iframe {
-    min-height: 200px;
-    max-height: 420px;
-}
-
-#video {
-    background-color: var(--cor6);
-    padding: 20px;
-}
-
-#extra {
-    background-color: var(--cor2);
-    padding: 5px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.externo {
-    background-color: var(--cor3);
-    padding-left: 5px;
-    text-decoration: none;
-    color: var(--cor6);
-}
-
-.externo::after {
-    content: ' 📎';
 }
