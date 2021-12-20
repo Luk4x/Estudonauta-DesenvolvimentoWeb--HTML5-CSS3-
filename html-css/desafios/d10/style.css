@@ -31,7 +31,6 @@ header {
     color: white;
     padding: 10px;
     text-align: center;
-    font-weight: bold;
     font-family: var(--fbebas);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.4);
@@ -76,6 +75,8 @@ main {
 
 main h1, h2 {
     font-family: var(--fidroid);
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 main h1 {
@@ -112,7 +113,7 @@ main .externo {
 }
 
 main .externo::after {
-    content: ' 📎';
+    content: ' \01F4CE';
 }
 
 main .externo:hover {
@@ -135,15 +136,18 @@ main .imgblock {
     margin: auto;
 }
 
-main iframe {
-    min-height: 200px;
-    max-height: 420px;
-}
-
 main #video {
-    margin: 0px;
     background-color: var(--cor6);
     padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+#video > iframe {
+    position: absolute;
+    left: 2%;
+    width: 96%;
+    height: 90%;
 }
 
 main #extra {
@@ -154,10 +158,35 @@ main #extra {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+main article > h3 {
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    margin: -5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: var(--fidroid);
+    font-weight: normal;
+}
+
+main article > ul {
+    list-style-position: inside;
+    list-style-type: '\2714  ';
+    columns: 2;
+}
+
 footer {
     background-color: var(--cor6);
     color: white;
     margin-top: 30px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    font-size: 0.8em;
 }
 
 footer a {
@@ -165,8 +194,7 @@ footer a {
     color: white;
 }
 
-footer > p {
-    margin: 0px;
-    padding: 2px;
-    text-align: center;
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
 }
