@@ -3,3 +3,21 @@ body {
     background-color: rgb(44, 42, 42);
     text-align: center;
 }
+
+div {
+    position: relative;
+    padding-bottom: 55%;
+    min-width: 300;
+    max-width: 1000px;
+    margin: auto;
+}
+
+div > iframe {
+    position: absolute;
+    left: 12%;
+    top: 7%;
+    width: 80%;
+    height: 80%;
+    max-width: 900px;
+    max-height: 500px;
+}
