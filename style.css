@@ -37,8 +37,14 @@ main {
     padding: 20px;
 }
 
+section {
+    max-width: 1000px;
+    margin: auto;
+}
+
 main h2 {
     text-indent: 1em;
+    margin: 30px;
 }
 
 main ul {
@@ -52,6 +58,10 @@ main li {
     list-style-type: none;
 }
 
+main a {
+    color: var(--c1);
+}
+
 section li::after {
     content: ' \2198'
 }
@@ -59,7 +69,6 @@ section li::after {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--c1);
 }
 
 a:hover {
@@ -72,5 +81,22 @@ a:hover {
 }
 
 footer {
+    background-color: var(--c5);
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
 
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--c1);
+}
+
+footer > p {
+    margin: 3px;
 }
