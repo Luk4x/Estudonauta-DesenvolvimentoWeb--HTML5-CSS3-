@@ -105,18 +105,18 @@ main strong {
     color: var(--cor6);
 }
 
-main .externo {
+main a[rel="external"] {
     background-color: var(--cor3);
     padding-left: 5px;
     text-decoration: none;
     color: var(--cor6);
 }
 
-main .externo::after {
+main a[rel="external"]::after {
     content: ' \01F4CE';
 }
 
-main .externo:hover {
+main a[rel="external"]:hover {
     color: var(--cor5);
     text-decoration: underline;
 }
