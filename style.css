@@ -86,7 +86,7 @@ section li a::after {
     content: ' \2198';
 }
 
-.externo::after {
+a[rel="external"]::after {
     content: ' \2197';
 }
 
