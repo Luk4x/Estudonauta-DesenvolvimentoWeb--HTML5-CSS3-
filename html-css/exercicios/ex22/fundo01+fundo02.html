@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../favicon-luk4x.ico" type="image/x-icon">
-    <title>Document</title>
+    <title>Imagem de fundo e Repetição</title>
     <style>
         body {
-            background-image: url(https://raw.githubusercontent.com/gustavoguanabara/html-css/master/exercicios/modulo-03/ex022/imagens/wallpaper001.jpg);
+            background-image: url('https://raw.githubusercontent.com/gustavoguanabara/html-css/master/exercicios/modulo-03/ex022/imagens/pattern003.png');
+            background-repeat: repeat-y;
+            background-position: right;
         }
 
-        div {
+        div.exemplo {
             display: inline-block;
             border: 1px solid black;
             border-radius: 5px;
@@ -29,18 +31,18 @@
         }
 
         div#d3 {
-            background-image: url(images-cap19/pattern001.png);
+            background-image: url('images-cap19/pattern001.png');
         }
     </style>
 </head>
 <body>
-    <div id="d1">
+    <div class="exemplo" id="d1">
 
     </div>
-    <div id="d2">
+    <div class="exemplo" id="d2">
 
     </div>
-    <div id="d3">
+    <div class="exemplo" id="d3">
 
     </div>
 </body>
