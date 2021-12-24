@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon-luk4x.ico" type="image/x-icon">
+    <title>Centralização Vertical</title>
+    <style>
+        body {
+            background-color: rgb(30, 30, 30);
+        }
+        
+        #caixa {
+            background-color: blueviolet;
+            background-image: url('images-cap19/target001.png');
+            background-size: 100% 100%;
+            
+            height: 98vh;
+            position: relative;
+        }
+
+        #conteudo {
+            background-image: url('images-cap19/target001.png');
+            background-size: 100% 100%;
+            background-color: cyan;
+            
+            width: 300px;
+            height: 300px;
+            
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="caixa">
+        <div id="conteudo">
+
+        </div>
+    </div>
+</body>
+</html>
