@@ -14,8 +14,8 @@
 
 html, body {
     min-height: 100vh;
-    margin: 0px;
-    background-color: rgb(200, 200, 200);
+    background-color: black;
+    font-family:  Arial, sans-serif;
 }
 
 header {
@@ -25,24 +25,23 @@ header {
 }
 
 header > h1,h2 {
-    margin: 0px;
-    font: 6em var(--font1);
+    font: 12vw var(--font1);
     font-variant: small-caps;
 }
 
 header > h1 {
-    padding: 30px 0px 0px 0px;
+    margin-top: -10px;
+    padding-top: 30px;
 }
 
 header > h2 {
-    margin: -20px;
-    font-size: 3em;
+    margin-top: -10px;
+    font-size: 6vw;
 }
 
 header > p {
-    margin: 10px;
-    padding: 30px;
-    font: 1em Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 a {
@@ -56,26 +55,48 @@ a:hover {
 }
 
 section {
-    padding: 10vh 0em 10vh 2em;
+    font: 2.6vw var(--font2);
+    padding: 10vh 3vw;
     line-height: 2em;
 }
 
+section > p {
+    padding: 1em;
+    width: 33vw;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
 section.normal {
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(230, 230, 230, 0.9);
 }
 
 section.imagem {
-    background-color: rgb(245, 230, 220);
-    color: white;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+section#img1 {
+    background-image: url('pacote-d12/imagens/background01.jpg');
+    background-position: center center;
+}
+
+section#img2 {
+    background-image: url('pacote-d12/imagens/background02.jpg');
+    background-position: right bottom;
 }
 
 footer {
+    padding: 5px;
     background-color: black;
     color: white;
     text-align: center;
-    font: 0.9em Arial, sans-serif;
 }
