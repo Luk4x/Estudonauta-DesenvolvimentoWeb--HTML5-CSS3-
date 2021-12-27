@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon-luk4x.ico" type="image/x-icon">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font: 1.2em Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        #t1 tr.listra {
+            background-color: lightgray;
+        }
+
+        #t1 td.destaque {
+            background-color: rgba(245, 225, 228, 0.9);
+        }
+
+        #t1 td.numero {
+            text-align: center;
+        }
+
+        #t2 table {
+            height: 600px;
+            margin: auto;
+        }
+
+        #t2 td {
+            text-align: center;
+            vertical-align: top;
+        }
+        
+        #t2 td.numero {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <section id="t1">
+        <table>
+            <tr>
+                <td>a1</td>
+                <td class="destaque">b1</td>
+                <td>c1</td>
+                <td class="numero">10</td>
+            </tr>
+            <tr class="listra">
+                <td class="destaque">a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            <tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td class="destaque">c3</td>
+            </tr>
+            <tr class="listra">
+                <td>a4</td>
+                <td>b4</td>
+                <td>c4</td>
+            </tr>
+            <tr>
+                <td>a5</td>
+                <td>b5</td>
+            </tr>
+            <tr class="listra">
+                <td>a6</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section id="t2">
+        <table>
+            <tr>
+                <td>a1</td>
+                <td>a2</td>
+                <td>a2</td>
+                <td>a4</td>
+            </tr>     
+            <tr>
+                <td>b1</td>
+                <td class="numero">12</td>
+                <td>b3</td>
+                <td>b4</td>
+            </tr>
+            <tr>
+                <td>c1</td>
+                <td>c2</td>
+                <td class="numero">40</td>
+                <td>c4</td>
+            </tr>
+            <tr>
+                <td>d1</td>
+                <td>d2</td>
+                <td>d3</td>
+                <td>d4</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
