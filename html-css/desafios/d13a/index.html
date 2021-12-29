@@ -6,8 +6,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../favicon-luk4x.ico" type="image/x-icon">
     <title>Tabelas</title>
+    <style>
+        body {
+            font: 1.5em Arial, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td,th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .table3 {
+            width: 600px;
+        }
+
+        .table3 tbody th {
+            text-align: left;
+        }
+
+        .table3 tfoot th {
+            text-align: left;
+        }
+
+        .table3 thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="4" style="text-align: left;">A</td>
+                <td rowspan="4" style="vertical-align: top;">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4" style="vertical-align: bottom;">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: right;">N</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table class="table3">
+        <thead>
+            <th rowspan="2" scope="col">Área</th>
+            <th rowspan="2" scope="col">Disciplinas</th>
+            <th colspan="3" scope="col">Notas</th>
+            <th rowspan="2" scope="col">Média</th>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="row">Exatas</th>
+                <th scope="row">Matemática</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Física</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Química</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Biologia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Média de Exatas</th>
+                <td>0.0</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table class="table3">
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="row">Humanas</th>
+                <th scope="row">História</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Geografia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Média de Humanas</th>
+                <td>0.0</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
