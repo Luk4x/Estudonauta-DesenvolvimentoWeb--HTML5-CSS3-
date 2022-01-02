@@ -18,7 +18,7 @@
 }
 
 header {
-    background: var(--c5) url(images/background3.jpg) no-repeat fixed center top;
+    background: var(--c5) url("images/background3.jpg") no-repeat fixed center top;
     background-size: cover;
     padding: 80px;
     color: azure;
@@ -61,20 +61,20 @@ main ul {
 }
 
 #backg1 {
-    background: var(--c5) url(images/background2.jpg) no-repeat fixed center top;
+    background: var(--c5) url("images/background2.jpg") no-repeat fixed center top;
     background-size: cover;
 }
 
 #backg2 {
-    background: var(--c5) url(images/background2.jpg) no-repeat fixed center center;
+    background: var(--c5) url("images/background2.jpg") no-repeat fixed center center;
     background-size: cover;
 }
 
 section#backg3 {
-    background: var(--c5) url(images/background2.jpg) no-repeat fixed center bottom;
+    background: var(--c5) url("images/background2.jpg") no-repeat fixed center bottom;
     background-size: cover;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
     border-radius: 5px;
     margin: auto;
     max-width: 1000px;
@@ -86,7 +86,7 @@ section#backg3 {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
     max-width: 900px;
-    margin: auto;
+    margin: 40px;
 }
 
 main li {
