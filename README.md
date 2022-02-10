@@ -1,13 +1,13 @@
 # Estudonauta Web-Development (HTML+CSS)
 
 ## About
-Exercises made by me, proposed in the Web development course at Estudosnauta.com.
+Main site to encompass all the exercises proposed at <a href="https://estudonauta.com">Estudonauta</a> web development course.
 
 ## Result
 <img src="./images/result.png" alt="challenge-result">
 Access the project <a href="https://luk4x.github.io/Estudonauta-DesenvolvimentoWeb--HTML5-CSS3-/">HERE</a>
 
-## 🤝 Contributors Linkedin
+## Contributors Contact
 <table>
   <tr>
     <td align="center">
