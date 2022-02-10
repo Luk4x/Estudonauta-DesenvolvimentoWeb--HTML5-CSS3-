@@ -1,7 +1,7 @@
 # Estudonauta Web-Development (HTML+CSS)
 
 ## About
-Main site to encompass all the exercises proposed at <a href="https://estudonauta.com">Estudonauta</a> web development course.
+Main site to encompass all the exercises proposed at <a href="https://estudonauta.com">Estudonauta</a> Web Development course.
 
 ## Result
 <img src="./images/result.png" alt="challenge-result">
