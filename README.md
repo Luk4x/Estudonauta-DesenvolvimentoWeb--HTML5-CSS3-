@@ -43,7 +43,7 @@
 > Assistir o vídeo acima e/ou acessar o projeto online ajudará na compreensão da explicação!
 
 Esse projeto se consiste numa vitrine que desenvolvi para simplificar e agilizar o acesso a todos os desafios e exercícios que fiz durante o curso de Desenvolvimento Web com HTML5 e CSS3 do [Estudonauta](https://estudonauta.com).<br>
-Foi por este curso que fui introduzido ao Desenvolvimento Web com HTML e CSS, e ao ser exposto a diversos conceitos de <b>Experiência do Usuário</b>, <b>Responsividade</b>, <b>SEO</b>, <b>Acessibilidade</b>, <b>Semântica</b>... posso dizer que através dele consegui uma ótima base para lidar com tais linguagens.<br>
+Foi por este curso que fui introduzido ao Desenvolvimento Web com HTML e CSS, e ao ser exposto a diversos conceitos de <b>Experiência do Usuário</b>, <b>Responsividade</b>, <b>SEO</b>, <b>Acessibilidade</b>, <b>Semântica</b>... posso dizer que através dele consegui me aprofundar em ambas as linguagens e construir uma ótima base para lidar com elas.<br>
 Ele é composto por 5 módulos, porém, parei no 3° pois o curso ainda não estava completo no momento em que fazia, mas pretendo concluí-lo futuramente.
 
 ### 📌 Alguns Destaques
