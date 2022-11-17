@@ -10,8 +10,9 @@
     </td>
   </tr>
 </table>
-<br>
 
+![luk4x-repo-status](https://img.shields.io/badge/Status-Finished-lightgrey?style=for-the-badge&logo=headspace&logoColor=green&color=lightgrey)
+![luk4x-repo-license](https://img.shields.io/github/license/Luk4x/Estudonauta-DesenvolvimentoWeb--HTML5-CSS3-?style=for-the-badge&logo=unlicense&logoColor=lightgrey)
 # 👨‍🚀 Estudonauta Project: Desenvolvimento Web com HTML5 e CSS3
 
 <br>
